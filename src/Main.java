@@ -5,8 +5,8 @@ public class Main {
         BmiService service = new BmiService();
         int weightKg = 52;
         double heightM = 1.66;
-        int BMI = service.calculate(weightKg, heightM);
+        int bmi = service.calculate(weightKg, heightM);
 
-        System.out.println(BMI);
+        System.out.println(bmi);
     }
 }
